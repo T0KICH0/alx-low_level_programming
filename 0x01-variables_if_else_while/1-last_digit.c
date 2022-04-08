@@ -20,7 +20,7 @@ else if (b > 6)
 {
 printf("Last digit of %d is greater than 6 and not 0\n", b);
 }
-while (b = 0)
+if (b == 0)
 {
 printf("Last digit of %d is 0 and is 0\n", b);
 }
