@@ -13,11 +13,10 @@ for (ch = 'a'; ch <= 'z'; ch++)
 {
 putchar(ch);
 }
-char CH = 'A';
 for (CH = 'A'; CH <= 'Z'; CH++)
 {
 putchar(CH);
 }
-putchar('\n')
+putchar('\n');
 return (0);
 }
