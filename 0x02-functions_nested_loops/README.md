@@ -1,1 +1,1 @@
-this is script place
+Functions in C
