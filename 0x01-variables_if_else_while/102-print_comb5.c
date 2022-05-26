@@ -15,7 +15,7 @@ for (k = '0'; k <= '9'; k++)
 {
 for (o = '0'; o <= '9'; o++)
 {
-if (i < o && c==k)
+if (i < o)
 {
 putchar(c);
 putchar(i);
