@@ -16,7 +16,7 @@ for (k = 0; k <= n; k++)
 {
 for (j = 0; j <= n; j++)
 {
-if (j = 0)
+if (j == 0)
 {
 l = k * j;
 if (l < 10)
