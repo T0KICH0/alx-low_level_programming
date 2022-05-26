@@ -22,7 +22,7 @@ putchar(i);
 putchar(' ');
 putchar(k);
 putchar(o);
-if (!(c=='9' && i=='8' && k=='9' && o=='9' ))
+if (!(c='9' && i='8' && k='9' && o='9' ))
 {
 putchar(',');
 putchar(' ');
