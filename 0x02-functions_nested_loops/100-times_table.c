@@ -46,7 +46,7 @@ putchar(' ');
 putchar(' ');
 }
 }
-else if (j = n)
+else if (j == n)
 {
 l = k *j;
 if (l < 10)
