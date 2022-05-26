@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
-* prints times table based on n
-*
-*@n: The int to print
-* Return: Always 0.
+ *prints times table based on n
+ *
+ *The int to print
+ *Return: Always 0.
 */
 void print_times_table(int n)
 {
@@ -16,7 +16,7 @@ for (k = 0; k <= n; k++)
 {
 for (j = 0; j <= n; j++)
 {
-    if (j = 0)
+if (j = 0)
 {
 l = k * j;
 if (l < 10)
