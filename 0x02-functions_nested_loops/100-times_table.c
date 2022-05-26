@@ -16,7 +16,36 @@ for (k = 0; k <= n; k++)
 {
 for (j = 0; j <= n; j++)
 {
-if (j < n)
+    if (j = 0)
+{
+l = k * j;
+if (l < 10)
+{
+putchar(l + '0');
+putchar(',');
+putchar(' ');
+putchar(' ');
+}
+else if(l >= 10 && l <= 99)
+{
+putchar(l / 10 + '0');
+putchar(l % 10 + '0');
+putchar(',');
+putchar(' ');
+putchar(' ');
+}
+else if(l > 99)
+{
+putchar('\b');
+putchar(l / 100 + '0');
+putchar((l - 100) / 10 + '0');
+putchar(l % 10 + '0');
+putchar(',');
+putchar(' ');
+putchar(' ');
+}
+}
+else if (j < n && j > 0)
 {
 l = k * j;
 if (l < 10)
