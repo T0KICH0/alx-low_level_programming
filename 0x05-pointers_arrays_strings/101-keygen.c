@@ -7,9 +7,9 @@
 #include <stdio.h>
 int main(void)
 {
-int i, j;
+int i;
 for (i=0; i<=RAND_MAX; i++)
 {
-    printf("%d\n", rand());
+printf("%d\n", rand());
 }
 }
