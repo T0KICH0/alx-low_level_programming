@@ -7,9 +7,9 @@
 */
 int main(void)
 {
-    srand(time(NULL));
 int i;
-for (i=0; i<=RAND_MAX; i++)
+srand(time(NULL));
+for (i=0; i <= RAND_MAX; i++)
 {
 printf("%d", rand());
 }
