@@ -9,13 +9,12 @@
  * @argv: arr args
  * Return: 0
  */
-
 int main(int argc, char *argv[])
-
 {
 	unsigned int i, sum, num;
 
 	sum = 0;
+
 	if (argc < 3)
 	{
 		printf("%d\n", 0);
