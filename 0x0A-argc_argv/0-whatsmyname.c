@@ -1,18 +1,15 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
-  * main - Prints its name
-  * @argc: argument count
-  * @argv: argument vector
-  *
-  * Return: Always zero
-  */
+ * main - function
+ * @argc: offset count
+ *@argv: offset value
+ * Return: 0
+ */
+
 int main(int argc, char *argv[])
+
 {
-
-	printf("%s\n", argv[0]);
-
-	return (0);
+	printf("%s\n", argv[argc - 1]);
+		return (0);
 }
-
